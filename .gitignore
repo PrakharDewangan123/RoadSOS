@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -137,3 +138,19 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+node_modules
+dist
+*.log
+.DS_Store
+
+# Local/dev environment files (do NOT commit real secrets)
+.env
+.env.*
+
+# Local HTTPS certificates or ngrok configs (if you add them)
+*.pem
+*.key
+ngrok.yml
+
+>>>>>>> 91eb176 (Initial commit - RoadSOS)

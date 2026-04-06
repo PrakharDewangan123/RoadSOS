@@ -1,0 +1,10 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+@import 'leaflet/dist/leaflet.css';
+
+/* Custom styles for Leaflet markers */
+.custom-marker {
+  background: transparent;
+  border: none;
+}
